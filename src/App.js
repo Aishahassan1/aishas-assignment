@@ -12,6 +12,7 @@ import Form from './exercises/9-form/Form';
 import UseEffectWithFetch from './exercises/11-useEffect-with-fetch/UseEffectWithFetch';
 import RenderTwoLists from './exercises/12-render-two-lists/RenderTwoLists';
 import ModifyArrayState from './exercises/13-modify-array-state.js/ModifyArrayState';
+import MyComponent from './exercises/1-render-component/MyComponent';
 
 function App() {
   return (

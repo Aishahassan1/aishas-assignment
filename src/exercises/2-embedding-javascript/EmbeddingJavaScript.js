@@ -1,3 +1,7 @@
+function capitaliseFirstLetter(s) {
+return s.charAt(0).toUpperCase() + s.slice(1)
+}
+
 const EmbeddingJavascript = () => {
 
   const user = {
@@ -20,8 +24,9 @@ const EmbeddingJavascript = () => {
       <a href="https://reactjs.org/docs/introducing-jsx.html">Documentation and examples</a>
 
 
-      <h2>Please render user full name below </h2>
+      <h2>{capitaliseFirstLetter(user.firstName)} {capitaliseFirstLetter(user.surname)}</h2>
       <h2>Please render user image below </h2>
+      <img src={user.image}/>
 
     </div>
   )

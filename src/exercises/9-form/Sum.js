@@ -1,4 +1,10 @@
+import { useState } from "react"
+
 const Sum = () => {
+
+  const [firstNumber, setFirstNumber] = (useState = 3)
+  const [secondNumber, setSecondNumber] = (useState = 2)
+
   return(
     <div className="flex">
       

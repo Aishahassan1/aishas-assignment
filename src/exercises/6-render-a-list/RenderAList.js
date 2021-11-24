@@ -1,6 +1,6 @@
 import CharactersContainer from './CharactersContainer'
 
-const RenderAList = () => {
+const RenderAList = (props) => {
   const characters = [
     {
       name: "Meriadoc Brandybuck",

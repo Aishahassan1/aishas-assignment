@@ -1,6 +1,6 @@
 import Character from './Character'
 
-const ConditionalRendering = () => {
+const ConditionalRendering = (props) => {
   const characters = [
     {
       name: "Meriadoc Brandybuck",

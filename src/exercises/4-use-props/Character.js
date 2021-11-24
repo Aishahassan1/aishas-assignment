@@ -1,13 +1,13 @@
-const Character = () => {
+const Character = (props) => {
   return(
     <div className="Character">
 
       <h3>Name: 
-      {/* please render name from props here */}
+      {props.name}
       </h3>
 
       {/* please render image url from props instead of the hash */}
-      <img src="#" alt=""/>
+      <img src={props.image} alt=""/>
     </div>
   )
 }

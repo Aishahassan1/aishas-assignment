@@ -1,4 +1,5 @@
 import Character from './Character'
+import RenderAList from './RenderAList'
 
 const CharactersContainer = (props) => {
   return (
@@ -6,7 +7,7 @@ const CharactersContainer = (props) => {
       
       {/* Please refactor code below to render all characters
       in characters array */}
-
+      
       <Character character={props.characters[0]}/>
       <Character character={props.characters[1]}/>
     </div>

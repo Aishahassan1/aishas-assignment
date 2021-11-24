@@ -4,6 +4,7 @@ const TrafficLight = () => {
   let green = false
   
   const darker = {filter: "brightness(50%)"}
+  const [light, setLight] = useState
   return(
     <div className="traffic-light">
       <div onClick={() => red = !red} className="red light" style={!red ? darker: {}}></div>

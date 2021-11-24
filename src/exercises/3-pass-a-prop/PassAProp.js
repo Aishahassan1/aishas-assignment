@@ -1,6 +1,6 @@
 import MyButton from "./MyButton"
 
-const PassAProp = () => {
+const PassAProp = (props) => {
   
   return(
     <div className="exercise third">
